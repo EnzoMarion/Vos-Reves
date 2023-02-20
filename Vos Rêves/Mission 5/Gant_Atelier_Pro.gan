@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Gant_Atelier_Pro" company="" webLink="http://" view-date="2022-10-10" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#6666ff #66ff66 #ffff66 #ff6666 #ff66ff #3333ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="17" name="Mission_1" color="#6666ff" meeting="false" start="2022-10-11" duration="20" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Réaliser par Lenny,  Estève et Enzo.]]>
+            </notes>
+            <task id="0" name="Définition d'un solution technique" color="#8cb6ce" meeting="false" start="2022-10-11" duration="1" complete="0" thirdDate="2022-09-02" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Définir le profil d'une Solution Technique d'Accès (STA) unique, qui sera utiliser pour équiper chaque nouveau commercial (Définition)]]>
+                </notes>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="Présenter 3 propositions" color="#8cb6ce" meeting="false" start="2022-10-12" duration="1" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Présenter trois propositions commerciales professionnelles avec garantie d'un an. On doit voir quel est le vendeur, le tarif et un descriptif technique des caractéristiques matérielles de l'équipement (composants et capacités) Choisissez un format de document facilitant la comparaison entre les 3 solutions. 
+
+]]>
+                </notes>
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="Avis personnel" color="#8cb6ce" meeting="false" start="2022-10-13" duration="1" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Emettre un avis personnel (Vous indiquerez parmi les 3 solutions celle qui a votre préférence. Cet avis est forcément argumenté.) ]]>
+                </notes>
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="Liste des logiciels" color="#8cb6ce" meeting="false" start="2022-10-14" duration="2" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Etablir la liste des logiciels qui devront être installés sur la STA (propositions des outils logiciels nécessaires et adaptés aux besoins des commerciaux itinérants qui ne rentrent pas forcément chez eux tous les soirs.) ]]>
+                </notes>
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="Eléments de configurations" color="#8cb6ce" meeting="false" start="2022-10-18" duration="1" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Indiquer des éléments de configuration et de paramétrage à appliquer avant de remettre un poste à un commercial. (Vous vous intéressez ici à des éléments de sécurisation des accès et des données, paramétrages réseaux éventuels, organisation de l'espace de stockage …) ]]>
+                </notes>
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" name="Procédure de préparation du poste" color="#8cb6ce" meeting="false" start="2022-10-19" duration="14" complete="0" thirdDate="2022-09-26" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Rédiger une procédure pour la préparation d'un poste avant sa délivrance au commercial. Il faut indiquer étape par étape la liste des opérations à réaliser (voir exemple fourni exempleficheprocédure.doc) ]]>
+                </notes>
+            </task>
+        </task>
+        <task id="1" name="Mission_2" color="#ff66ff" meeting="false" start="2022-11-08" duration="21" complete="0" thirdDate="2022-09-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Réaliser par Lenny et Maxence.]]>
+            </notes>
+            <task id="18" name="Recherche d'imprimantes" color="#8cb6ce" meeting="false" start="2022-11-08" duration="6" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Chercher 4 propositions commerciales professionnelles pour des imprimantes laser couleur 
+
+Chercher 4 propositions commerciales professionnelles pour des imprimantes jet d’encre couleur ]]>
+                </notes>
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" name="Programmation d'excel" color="#8cb6ce" meeting="false" start="2022-11-16" duration="14" complete="0" thirdDate="2022-11-09" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Faire la maquette du formulaire de saisie d’un consommable avec explication du fonctionnement 
+
+Faire la maquette du formulaire de saisie d’une imprimante et de ses4 consommable avec explication du fonctionnement 
+
+Mettre en œuvre sous EXCEL, les 2 formulaires conçus. ]]>
+                </notes>
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="Calcul de coût" color="#8cb6ce" meeting="false" start="2022-12-06" duration="1" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Réaliser une feuille de calcul de coût pour chaque imprimante selon les 3 hypothèses (éléments de coûts retenus et détails des calculs).]]>
+                </notes>
+            </task>
+        </task>
+        <task id="2" name="Mission3" color="#ff6666" meeting="false" start="2022-10-18" duration="21" complete="0" thirdDate="2022-09-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Réaliser par Enzo.]]>
+            </notes>
+            <task id="19" name="Définir les notions" color="#8cb6ce" meeting="false" start="2022-10-18" duration="1" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Définir la notion de plan de sauvegarde et de plan de restauration. ]]>
+                </notes>
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" name="Définir les dispositif" color="#8cb6ce" meeting="false" start="2022-10-19" duration="1" complete="0" thirdDate="2022-10-12" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Définir les dispositifs SAN et NAS ]]>
+                </notes>
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" name="Choisir un dispositif" color="#8cb6ce" meeting="false" start="2022-10-20" duration="14" complete="0" thirdDate="2022-10-13" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Choisir un de ces dispositifs en indiquant ses caractéristiques techniques et son coût ]]>
+                </notes>
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" name="Plan de sauvegarde" color="#8cb6ce" meeting="false" start="2022-11-09" duration="5" complete="0" thirdDate="2022-10-14" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Faire un plan de sauvegarde hebdomadaire en indiquant chaque jour, quelles informations sont sauvegardées. (Préciser s’il s’agit d’une sauvegarde complète ou incrémentielle qui est préconisée.) Préciser sur quel dispositif la sauvegarde est effectuée car le dispositif de sauvegarde sur bandes magnétiques continue à fonctionner. ]]>
+                </notes>
+            </task>
+        </task>
+        <task id="3" name="Mission_4" color="#ffff66" meeting="false" start="2022-11-15" duration="11" complete="0" thirdDate="2022-09-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Réaliser par Lenny,  Estève et Enzo.]]>
+            </notes>
+            <task id="20" name="Risques attaques (PowerPoint)" color="#8cb6ce" meeting="false" start="2022-11-15" duration="6" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Réaliser un diaporama sous PowerPoint qui sera le support d’une intervention devant les salariés, qui présente les différents risques d’attaque et, lorsqu’il y en a, des actions simples à faire par les utilisateurs pour limiter les risques. ]]>
+                </notes>
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="27" name="Charte informatique (HTML)" color="#8cb6ce" meeting="false" start="2022-11-23" duration="5" complete="0" thirdDate="2022-11-16" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Réaliser une charte informatique adaptée à l’entreprise VOSREVES, réalisée au format HTML imprimable depuis l'intranet de l'entreprise. ]]>
+                </notes>
+            </task>
+        </task>
+        <task id="4" name="Mission_5" color="#66ff66" meeting="false" start="2022-10-11" duration="41" complete="0" thirdDate="2022-09-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Réaliser par Estève.]]>
+            </notes>
+            <task id="16" name="Projet de Gant" color="#8cb6ce" meeting="false" start="2022-10-11" duration="41" complete="0" thirdDate="2022-10-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Le projet de gant est réalisé via le logiciel ganttProject. Il permet de s'oganiser et de voir l'avancement du projet. Il doit donc être mis à jour chaque semaine.]]>
+                </notes>
+            </task>
+        </task>
+        <task id="29" name="Compte-rendu" color="#8cb6ce" meeting="false" start="2022-12-06" duration="1" complete="0" thirdDate="2022-10-17" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Compte rendu final de tout le projet]]>
+            </notes>
+            <task id="30" name="Compte-rendu final" color="#8cb6ce" meeting="false" start="2022-12-06" duration="1" complete="0" thirdDate="2022-12-06" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Le compte-rendu final (au format .docx) avec toutes les annexes (.docx)
+Pour le compte-rendu, il s’agit d’un document présentant le projet, les membre du groupe, le
+travail effectué au niveau de chaque mission. Ce compte-rendu présente et commente le
+diagramme de GANTT (copie d’écran du projet), rendant compte de l’échéancier suivi pour
+faire le travail.
+Il comporte une conclusion pour faire le bilan de cette activité, du travail en collaboration...]]>
+                </notes>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
